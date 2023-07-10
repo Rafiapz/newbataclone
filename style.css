@@ -433,26 +433,32 @@ body{
 .fb:hover{
 
     color: blue;
+    cursor: pointer;
 }
 .tw:hover{
 
     color: rgb(96, 165, 240);
+    cursor: pointer;
 }
 .yt:hover{
 
     color: red;
+    cursor: pointer;
 }
 .ig:hover{
 
     color: rgb(245, 127, 147);
+    cursor: pointer;
 }
 .ln:hover{
 
     color: blue;
+    cursor: pointer;
 }
 .pt:hover{
 
     color: rgb(134, 44, 32);
+    cursor: pointer;
 }
 .hidd{
 
@@ -460,11 +466,21 @@ body{
    right: 10%;
    display: none;
 }
+.llk{
+    
+    height: 50px;
+    padding-right: 5%;
+}
+.too{
+
+   position: absolute;
+   right: 5%;
+}
 
 
 @media(max-width:768px){
     .hidd{
-        display: block;
+        
         
     }
     .ssnd{

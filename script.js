@@ -1,6 +1,5 @@
 
-const footerr=document.querySelector('.fts');
+function scrollToTop() {
+    window.scrollTo(0, 0);
+}
 
-const footls=document.querySelectorAll('.fts');
-
-footls.addE
