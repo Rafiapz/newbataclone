@@ -2,16 +2,20 @@
 
     margin: 0;
     box-sizing: border-box;
+    overflow-x: hidden;  
+   
+
 }
 body{
 
     margin: 0;
-    overflow-x: hidden;
+    
 }
 
 .navb{
 
     background-color:white;
+    font-family: 'Times New Roman', Times, serif;
 }
 .firstline{
 
@@ -43,6 +47,9 @@ body{
 
     width: 5%px;
     height: 50px;
+    
+}
+.freehm{
     
 }
 
@@ -266,7 +273,7 @@ body{
 }
 .fifthline{
 
-    
+    width: 100%;
     height: 60px;
     display: flex;
     justify-content: center;
@@ -334,6 +341,7 @@ body{
 
         display: block;
     }
+   
 }
 .ftmain{
     background-color: #e9ecef;
@@ -348,14 +356,36 @@ body{
     padding-left: 5%;
     padding-top: 4%;
 }
+.girl{
+
+    position: fixed;
+    bottom: 14%;
+    right: 2%;
+    width: 75px;
+    height: 75px;
+}
+.jjj{
+    
+}
 .flst{
 
     list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+   
     
 }
 .lett{
 
     margin-left: 10%;
+    display: inline;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 50px;
+}
+.stt{
+
+    align-items: center;
+    justify-content: center;
+
 }
 .aab{
 
@@ -424,11 +454,18 @@ body{
 
     color: rgb(134, 44, 32);
 }
+.hidd{
+
+   position: absolute;
+   right: 10%;
+   display: none;
+}
 
 
 @media(max-width:768px){
-    .fotr{
-        display: none;
+    .hidd{
+        display: block;
+        
     }
     .ssnd{
 
@@ -442,6 +479,9 @@ body{
         gap: 10px;
         justify-content: center;
     }
+    .flst{
+        
+    }
 
 }
 .cin{
@@ -452,9 +492,10 @@ body{
 .twelth{
 
     display: flex;
-    justify-content: center;
+   
     align-items: center;
     align-content: center;
+    height: 60px;
 }
 .hv{
     display: flex;
@@ -504,7 +545,18 @@ body{
 .fso{
 
     font-size: 15px;
-    margin-left: ;
+    
+}
+.thirteen{
+
+    display: flex;
+    justify-content: center;
+
+}
+.cina{
+    font-size: 15px;
+    display: inline;
+    margin-left: 5%;
 }
 
 
